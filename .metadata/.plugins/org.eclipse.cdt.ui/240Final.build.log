@@ -1,0 +1,14 @@
+16:56:22 **** Incremental Build of configuration Debug for project 240Final ****
+make all 
+Building file: ../Testerfiles/6Tester.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Testerfiles/6Tester.d" -MT"Testerfiles/6Tester.o" -o "Testerfiles/6Tester.o" "../Testerfiles/6Tester.cpp"
+../Testerfiles/6Tester.cpp:5:10: fatal error: String.h: No such file or directory
+    5 | #include "String.h"
+      |          ^~~~~~~~~~
+compilation terminated.
+make: *** [Testerfiles/subdir.mk:20: Testerfiles/6Tester.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+16:56:22 Build Failed. 2 errors, 0 warnings. (took 169ms)
+
